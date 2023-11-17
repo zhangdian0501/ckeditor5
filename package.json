@@ -1,6 +1,6 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
+  "name": "ckeditor5",
+  "author": "zhangdian",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -56,5 +56,14 @@
   "scripts": {
     "build": "webpack --mode production",
     "postbuild": "tsc --declaration --declarationDir build --stripInternal --emitDeclarationOnly"
+  },
+  "repository": { // 项目代码仓库
+    "type": "git",
+    "url": "git+https://github.com/zhangdian0501/ckeditor5.git"
+  },
+  "keywords": ['ckeditor5','ckeditor'], // 关键字，利于包检索
+  "license": "ISC", // 许可证协议
+  "bugs": { // 问题反馈地址
+    "url": "https://github.com/zhangdian0501/ckeditor5/issues"
   }
 }
